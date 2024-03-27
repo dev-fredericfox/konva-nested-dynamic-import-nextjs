@@ -3,7 +3,7 @@ const Canvas = dynamic(() => import("../../../components/Canvas"), {
 	ssr: false,
 });
 // Do not: import { Circle } from "react-konva"; this will also lead to the same bug.
-const MyCircle = dynamic(() => import("../../../components/Circle"), {
+const MyCircle = dynamic(() => import("../../../components/MyCircle"), {
 	ssr: false,
 });
 export default function NestedCanvas() {
